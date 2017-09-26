@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 50px;
+  grid-auto-flow: row;
+  justify-content: space-around;
+  background-color: #888;
+
+
+}
+
+.item-a {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  background-color: yellow;
+  padding: 5px
+
+}
+.item-b {
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+.item-c {
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+}
+
+
+
+
+border-color: black;
+border-style: solid;
+border-width: 3px;

@@ -1,0 +1,46 @@
+.page_Title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: lightblue
+}
+.body {
+  display: flex;
+  justify-content: space-between;
+  text-align: center
+}
+.left_Pane {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  height: 800px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: lightblue
+}
+.right_Pane {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 250px;
+  height: 800px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: lightblue
+}
+.footer_Pane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  background-color: lightblue

@@ -1,0 +1,34 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px auto auto 200px 200px
+  grid-template-rows: auto;
+  grid-template-areas:
+    "tl tl a3 a4 a5 a6"
+    "tl tl b3 b4 b5 b6"
+    "tl tl c3 c4 c5 c6"
+    "d1 d2 d3 d4 br br"
+    "e1 e2 e3 e4 br br"
+    "f1 f2 f3 f4 br br";
+    border: 1px solid black;
+}
+
+.top_left {
+  display: grid;
+  grid-area: tl;
+  color: white;
+  background: #888;
+  border: 2px solid black;
+
+}
+
+.bottom_right {
+  display: grid;
+  grid-area: br;
+  color: white;
+  background: #888;
+  border: 2px solid black;
+
+}
+
+
+200px 200px 200px

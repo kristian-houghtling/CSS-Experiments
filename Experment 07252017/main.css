@@ -1,0 +1,17 @@
+body {
+  font-family: "Play";
+  color: white;
+  background-image: url("darkwood.jpg");
+  background-size: cover;
+}
+div.transbox {
+  margin: 30px;
+  color: black;
+  background-color: #ffffff;
+  border: 3 solid black;
+  #opacity: 0.3;
+}
+img {
+  border: 3px solid red;
+  opacity: 0.5;
+}
