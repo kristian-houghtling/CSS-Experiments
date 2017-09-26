@@ -1,3 +1,31 @@
 body {
   background-color: lightblue;
 }
+
+h1 {
+  background-color: orange;
+  border: solid black 2px;
+  padding: 20px;
+
+}
+
+div {
+  border: solid black 2px;
+  margin-top: 10px;
+}
+.t1 {
+  width: 200px;
+  height: 300px;
+  float:left;
+}
+
+.t2 {
+  width: auto;
+  height: 130px;
+  margin: 10px;
+  float: left;
+}
+
+.t3 {
+  float: left 
+}
